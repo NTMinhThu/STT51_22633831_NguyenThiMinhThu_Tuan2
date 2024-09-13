@@ -1,0 +1,145 @@
+
+    #container{
+        border:1px solid;
+        box-shadow: 2px 5px 10px gray, -2px 5px 10px gray;
+        padding: 12px 12px 0px 12px;
+        margin-top: 10px;
+        margin: 0 auto;
+        width: 1200px;
+        height: 970px;
+    }
+    header{
+        background-image:url(/img/background.png) ;
+        padding: 8px 0 0 0;
+    }
+    nav{
+        margin-top: 33px;
+            width: 100%;
+            height: 40px;
+            background-color: rgb(185, 182, 182);
+          display: flex;
+            align-items: center;
+            justify-content: space-around;  
+    }
+    nav li {
+            margin-right: 65px;
+            font-size: 16px;
+            font-weight: bold;
+            display: inline;
+        }
+        
+        nav a:hover {
+            color: black;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+        #p1 {
+            font-size: 40px;
+            margin-top: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgba(240, 248, 255, 0.984);
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        
+        #p2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: rgba(240, 248, 255, 0.8);
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-top: -40px;
+        }
+
+    #logo{
+        float: left;
+    }
+    section{
+        float: left;}
+    aside{
+        float: left;
+        width: 24%;
+        height: 637px;
+        margin-top: 40px;
+        margin-right: 10px;
+        border-left: 1px solid rgb(226, 225, 225);
+    }
+    footer {
+        float: left;
+        margin-top: 10px;
+        width: 100%;
+        height: 35px;
+        background-color: rgb(185, 182, 182);
+        color: white;
+     }
+    #a1 {
+        float: left;
+    }
+    figure{
+        border: 1px solid rgb(226, 225, 225) ;
+        float: left;
+        padding: 5px 5px 5px 5px ;
+    }
+    #pic1{
+        width: 290px;;
+    }
+    #bokchoi{
+        font-size: 15px;
+        margin-left: 5px;
+        font-weight: 550;
+        color: dimgrey;
+        
+    }
+    #Teriyaki{
+        font-size: 15px;
+        margin-left: 5px;
+        font-weight: 550;
+        color: dimgrey;
+    }
+
+    #d1{
+        line-height: 1.5;
+        font-size: 14px;
+        color: rgb(92, 91, 91);
+        height: 100px;
+    }
+    #d1 h3{
+        color:crimson;
+        margin-top:  -15px;
+    }
+    #d2{
+        line-height: 1.5;
+        font-size: 14px;
+        color: rgb(92, 91, 91);
+        margin-top: 100px;
+    }
+    #d2 h3{
+        color:crimson;
+        margin-top:  -15px;
+    }
+    #s2 {
+        height: 250px;
+        margin-top: auto;
+    }
+    #s2 h2{
+        color:crimson;
+    }
+    #s2 a{
+        color:crimson;
+        display: block;
+        border-bottom: 1px solid rgb(226, 225, 225);
+        padding: 10px;
+        text-decoration: none;
+    }
+    #s3 {
+        color:crimson
+        }
+    #s3 h3{
+        line-height: 1.5;
+        font-size: 14px;
+        color: rgb(92, 91, 91);
+        margin-top:  -15px;
+    }

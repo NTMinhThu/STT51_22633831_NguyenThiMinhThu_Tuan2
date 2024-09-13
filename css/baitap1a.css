@@ -1,0 +1,75 @@
+
+    p, li {
+      color: rgb(163, 71, 98);
+    }
+    .container{
+      margin: 0px auto;
+      border: 1px solid rgba(149, 146, 146, 0.75);
+      width: 800px;
+      height: 800px;
+    }
+    header {
+      border-bottom: 3px solid rgb(233, 164, 47);
+      display: flex;
+      justify-content: flex-end;
+    }
+    nav {
+      width: 23%;
+      height: 722px;
+      background-image: url(/img/back.jpg);
+      float: left;
+      margin-top: -20px;
+    }
+    .menu  {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 90%;
+      border-bottom: 2px dashed rgb(233, 164, 47);
+    }
+    a {
+      text-decoration: none;
+      margin-left: 10px;
+    }
+    h1{
+        color: rgb(233, 164, 47);
+        font-size: 25px;;
+    }
+    section{
+        margin-left: 200px;;
+    }
+    .box1{
+      width: 190px;
+      height: 180px;
+      border: 5px inset rgb(166, 161, 159);
+      background-color: rgb(254, 255, 241);
+      position: absolute;
+      left: 63%;
+      top: 20%;
+      color: brown;
+    }
+    .box2{
+      width: 200px;
+      height: 100px;
+      border: 5px inset rgb(166, 161, 159);
+      background-color: rgb(254, 255, 241);
+      position: absolute;
+      left: 30%;
+      top: 60%;
+      color: brown;
+    }
+    .box3{
+      width: 180px;
+      height: 120px;
+      border: 5px inset rgb(166, 161, 159);
+      background-color: rgb(254, 255, 241);
+      position: absolute;
+      left: 60%;
+      top: 83%;
+      color: brown;
+    }
+    footer {
+      border-top: 3px solid rgb(233, 164, 47);
+      position: absolute;
+      top: 770px;
+      font-size: 15px;
+    }
